@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<img src="https://cdn.sforum.vn/sforum/wp-content/uploads/2022/01/zhongli-thumb-1.jpg?fbclid=IwAR2RwnxiS0wlByCuDRe7T2qv3O2xn5pGOEZnk4NJlfmdfvZHAUXitN8LS1w" width="400px" height="auto"/>
+<table>
+    <strong><h3> Họ Và tên:</h3></strong><p>Zhongli</p>
+    <strong><h3> Địa chỉ :</h3></strong><p>Teyvat</p>
+    <strong><h3> Số điện thoại:</h3></strong><p>1234567890</p>
+    <strong><h3> Email:</h3></strong><p>Zhonglideptrai@gmail.com</p>
+    <strong><h3> Học vấn:</h3></strong><p>chắc là 12/12 </p>
+    <strong><h3> Bằng cấp:</h3></strong><p> Bằng xây dựng phụ hồ </p>
+    <strong><h3> Kỹ năng:</h3></strong><p>Chọi đá </p>
+    <strong><h3> Kinh nghiệm:</h3></strong><p>Ném gạch</p>
+    <strong><h3> Định hướng cá nhân :</h3></strong><p>Đi ném gạch toàn teyvat</p>
+</table>
+</body>
+</html>
