@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form >
+    <table style="background-color: orangered" >
+        <tr>
+            <th></th>
+            <th style="width: 20px " height="auto">1</th>
+            <th style="width: 20px " height="auto">2</th>
+            <th style="width: 20px " height="auto">3</th>
+            <th style="width: 20px " height="auto">4</th>
+            <th style="width: 20px " height="auto">5</th>
+            <th style="width: 20px " height="auto">6</th>
+            <th style="width: 20px " height="auto">7</th>
+            <th style="width: 20px " height="auto">8</th>
+
+        </tr>
+        <tr>
+            <td>A</td>
+            <td style="background-color:white"></td>
+            <td style="background-color:black"></td>
+            <td style="background-color:white"></td>
+            <td style="background-color:black"></td>
+            <td style="background-color:white"></td>
+            <td style="background-color:black"></td>
+            <td style="background-color:white"></td>
+            <td style="background-color:black"></td>
+        </tr>
+        <tr>
+            <td>B</td>
+            <td style="background-color:black"></td>
+            <td style="background-color:white"></td>
+            <td style="background-color:black"></td>
+            <td style="background-color:white"></td>
+            <td style="background-color:black"></td>
+            <td style="background-color:white"></td>
+            <td style="background-color:black"></td>
+            <td style="background-color:white"></td>
+        </tr>
+        <tr>
+            <td>C</td>
+            <td style="background-color:white"></td>
+            <td style="background-color:black"></td>
+            <td style="background-color:white"></td>
+            <td style="background-color:black"></td>
+            <td style="background-color:white"></td>
+            <td style="background-color:black"></td>
+            <td style="background-color:white"></td>
+            <td style="background-color:black"></td>
+        </tr>
+        <tr>
+            <td>D</td>
+            <td style="background-color:black"></td>
+            <td style="background-color:white"></td>
+            <td style="background-color:black"></td>
+            <td style="background-color:white"></td>
+            <td style="background-color:black"></td>
+            <td style="background-color:white"></td>
+            <td style="background-color:black"></td>
+            <td style="background-color:white"></td>
+        </tr>
+        <tr>
+            <td>E</td>
+            <td style="background-color:white"></td>
+            <td style="background-color:black"></td>
+            <td style="background-color:white"></td>
+            <td style="background-color:black"></td>
+            <td style="background-color:white"></td>
+            <td style="background-color:black"></td>
+            <td style="background-color:white"></td>
+            <td style="background-color:black"></td>
+        </tr>
+        <tr>
+            <td>F</td>
+            <td style="background-color:black"></td>
+            <td style="background-color:white"></td>
+            <td style="background-color:black"></td>
+            <td style="background-color:white"></td>
+            <td style="background-color:black"></td>
+            <td style="background-color:white"></td>
+            <td style="background-color:black"></td>
+            <td style="background-color:white"></td>
+        </tr>
+        <tr>
+            <td>G</td>
+            <td style="background-color:white"></td>
+            <td style="background-color:black"></td>
+            <td style="background-color:white"></td>
+            <td style="background-color:black"></td>
+            <td style="background-color:white"></td>
+            <td style="background-color:black"></td>
+            <td style="background-color:white"></td>
+            <td style="background-color:black"></td>
+        </tr>
+        <tr>
+            <td>H</td>
+            <td style="background-color:black"></td>
+            <td style="background-color:white"></td>
+            <td style="background-color:black"></td>
+            <td style="background-color:white"></td>
+            <td style="background-color:black"></td>
+            <td style="background-color:white"></td>
+            <td style="background-color:black"></td>
+            <td style="background-color:white"></td>
+        </tr>
+    </table>
+
+</form>
+
+</body>
+</html>
