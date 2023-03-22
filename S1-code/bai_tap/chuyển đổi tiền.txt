@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" id="Amount">
+<select name="sl1" id="sl1">
+    <option value="VNĐ">VNĐ</option>
+    <option value="USD">USD</option>
+</select>
+<select name="sl2" id="sl2">
+    <option value="VNĐ">VNĐ</option>
+    <option value="USD">USD</option>
+</select>
+<button onclick="convert()">convert</button>
+<script>
+    function convert() {
+        let giatrivao = document.getElementById('Amount').value;
+        let sl1 = document.getElementById('sl1').value;
+        let sl2 = document.getElementById('sl2').value;
+        console.log(giatrivao);
+        console.log("sl1",sl1);
+        console.log("sl2",sl2);
+        if (sl1==sl2) {
+            alert(giatrivao);
+        }
+        if (sl1== "VNĐ" && sl2=="USD" ) {
+            alert(giatrivao/25000)
+        }
+        if (sl1=="USD" && sl2=="VNĐ"){
+            alert(giatrivao*25000)
+        }
+    }
+</script>
+</body>
+</html>
