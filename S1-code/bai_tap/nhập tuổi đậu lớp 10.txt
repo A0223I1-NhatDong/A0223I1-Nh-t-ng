@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+  let tuổi = prompt( " nhập số tuổi ");
+  if (tuổi >= 15){
+    alert("đậu lớp 10 rồi nghen");
+  }else if (tuổi <15){
+    alert("chưa đủ tuổi lên lớp 10 ");
+  }
+</script>
+</body>
