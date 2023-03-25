@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+ let a = +(prompt("nhập doanh số"));
+ if (a<= 100){
+     alert("Hoa hồng của bạn là "+a * 5/100 + " tỷ");
+ }else if(a<= 200){
+     alert("Hoa hồng của bạn là "+a*10/100 +" tỷ");
+ }else {
+     alert("Hoa hồng của bạn là " +a*15/100 +" tỷ");
+ }
+</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var a = parseInt(prompt("điểm kiểm tra"));
+    var b = parseInt(prompt("điểm thi giữa kỳ"));
+    var c = parseInt(prompt("điểm thi cuối kì "));
+     let n = ((a+b+c)/3); {
+         if (n>=9){
+         alert("Bạn đạt loại giỏi");
+    }else if(n<9 && n>=7){
+      alert("Bạn đạt loại khá ");
+        }else if (n<7 && n>=5){
+             alert("Bạn đạt loại trung bình");
+         }else {
+             alert("Bạn đạt loại yếu")
+         }
+    }
+</script>
+</body>
+</html>
