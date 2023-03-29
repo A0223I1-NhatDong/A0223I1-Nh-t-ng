@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+  let a = +prompt("nhập cạnh  a");
+  let b = +prompt("nhập cạnh b");
+ let  c = + prompt("nhập cạnh c");
+ if (a <=0|| b<=0|| c<=0) {
+    alert("Mời bạn nhập lại");
+    }else if (a+b>c && b+c>a && a+c>b){
+   alert("Đây là một tam giác")
+ } else {
+   alert(" Đây không phải là tam giác")
+ }
+</script>
+</body>
+</html>
