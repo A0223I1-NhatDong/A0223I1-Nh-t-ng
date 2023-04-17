@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai7</title>
+</head>
+<body>
+<script>
+    let a =  [ '9','0', '2', 'G', 'N', 'O', 'D' ]
+    let arr= a.reverse();
+    let join = arr.join("");
+     document.writeln("Phần tử đảo ngược là :" + join)
+</script>
+</body>
+</html>

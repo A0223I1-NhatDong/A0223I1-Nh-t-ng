@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai3</title>
+</head>
+<body>
+
+</body>
+<script>
+    let arr = ['a', 'b', 'c', 1, 2, 3,5];
+    let count = 0;
+    for (let i = 0; i < arr.length; i++) {
+        if (typeof arr[i] === 'number') {
+            count++;
+        }
+    }alert("số ký tự số trong mảng là : " + count)
+
+
+</script>
+</html>

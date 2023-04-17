@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let n = +prompt("Nhập vào số lượng phần tử muốn xoá : ");
+
+    // let arr = [];
+    // for (let i = 0; i < n; i++) {
+    //     arr[i] = +prompt("Nhập vào phần tử  " + (i));
+    // }
+    let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] === n) {
+            arr.splice(i,1);
+        }
+    }document.writeln("phần tử đã xoá là " +arr);
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai7</title>
+</head>
+<body>
+<script>
+    let arr = "D O N G NE 2 0 9"
+    let count = 0
+    for(let i=0; i< arr.length;i++){
+        if (arr[i].trim() !=="") {
+            count++;
+        }
+    }
+    document.writeln(count)
+</script>
+</body>
+</html>
