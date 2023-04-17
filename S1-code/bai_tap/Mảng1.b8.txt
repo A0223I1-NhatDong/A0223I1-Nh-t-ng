@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai7</title>
+</head>
+<body>
+<script>
+    let n = +prompt("Nhập vào số lượng phần tử của mảng: ");
+    let arr = [];
+    for (let i = 0; i < n; i++) {
+        arr[i] = +prompt("Nhập vào phần tử thứ " + (i));
+    }
+     let arr1=arr.sort(function (a, b){
+         return b-a;
+     });
+    document.writeln("Phần tử sau khi sắp xếp là : " + arr1);
+</script>
+</body>
+</html>
