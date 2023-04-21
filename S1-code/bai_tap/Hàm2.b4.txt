@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hàm2b2</title>
+</head>
+<body>
+<script>
+    let n = prompt(" mời nhập :");
+    function number() {
+        let nb = Number(n);
+        if (nb){
+            return true;
+        }
+            return false;
+    }
+    alert(number(n));
+ number(n);
+</script>
+</body>
+</html>

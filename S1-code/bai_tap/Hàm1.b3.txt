@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hàm1b3</title>
+</head>
+<body>
+<script>
+    let a=+prompt("Nhập tham số thứ 1 : ");
+    let b=+prompt("Nhập tham số thứ 2 : ");
+     document.writeln("số thứ 1 bạn nhập là :" +a + "<br>")
+     document.writeln("số thứ 2 bạn nhập là :" +b+ "<br>")
+    function ab() {
+        if (a>b){
+            document.writeln("Tham số thứ 1 lớn hơn tham số thứ 2");
+        }else if (b===a){
+            document.writeln("Tham số cả hai bằng nhau");
+        }else {
+            document.writeln("Giá trị của 2 tham số : " + (a+b));
+        }
+    }
+ ab();
+</script>
+</body>
+</html>

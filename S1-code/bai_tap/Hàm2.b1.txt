@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hàm1b3</title>
+</head>
+<body>
+<script>
+    let n =prompt("Nhập vào 1 số : ")
+
+    function square(){
+        square = n*n;
+        alert("Bình phương của "+ n + " là :" + square);
+    }
+ square();
+
+</script>
+</body>
+</html>

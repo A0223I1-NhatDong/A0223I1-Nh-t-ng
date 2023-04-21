@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hàm1b3</title>
+</head>
+<body>
+<script>
+    let n = prompt("Nhập chòm sao của bạn");
+
+    function star(sao) {
+        let stars = ["Polaris", "Aldebaran", "Deneb", "Vega", " Altair", "Dubhe", "Regulus"];
+        let stars1 = ["Ursa Minor", "Tarurus", "Cygnus", "Lyra", "Aquila", "Ursa Major", "Leo"];
+        let index = stars.indexOf(sao);
+        let result=stars1[index];
+        if (index === -1) {
+            alert("Không tồn tại ngôi sao :" + sao);
+        } else {
+            alert("Ngôi sao bạn kiếm là : " + result);
+        }
+    }
+
+    star(n);
+</script>
+</body>
+</html>

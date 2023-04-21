@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hàm2b2</title>
+</head>
+<body>
+<script>
+    let n = prompt("Nhập 1 số nguyên dương : ");
+    let gt = 1;
+
+    function factorial() {
+        for (let i = 1; i <= n; i++) {
+            gt *= i;
+        }
+        alert("Giai thừa của "+ n +" là :"+ gt )
+    }
+
+    factorial(n);
+
+</script>
+</body>
+</html>

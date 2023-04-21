@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hàm2b7</title>
+</head>
+<body>
+<script>
+   let n1 =prompt("Nhập số nguyên thứ 1");
+   let n2 =prompt("Nhập số nguyên thứ 2");
+    alert("vị trí ban đầu là  : " +n1 +" và " + n2);
+   function swap (){
+       let i=n1;
+       n1=n2;
+       n2=i;
+       return [n1,n2];
+   }
+   alert("Vị trí sau khi thay đổi là :"+ swap());
+   swap();
+</script>
+</body>
+</html>

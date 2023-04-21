@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hàm2b2</title>
+</head>
+<body>
+<script>
+    let n = prompt("Nhập bán kính : ");
+    let n1 = prompt("Nhập đường kính :");
+    let pi=3.14;
+    function math (){
+        let area = (n*n) *pi;
+        alert("Diện tích của hình tròn là :" + area);
+        let perimeter = n1 *pi;
+        alert("Chu vi của hình tròn là :" +perimeter);
+    }
+    math();
+
+
+
+</script>
+</body>
+</html>

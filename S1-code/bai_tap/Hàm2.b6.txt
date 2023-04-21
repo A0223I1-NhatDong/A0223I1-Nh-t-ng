@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hàm2b2</title>
+</head>
+<body>
+<script>
+    let n1 = prompt(" Nhập 1 số bất kì ");
+    function integer (){
+        if (n1 == 0){
+            alert("Mời bạn nhập lại");
+        }else if (n1 >0) {
+            alert("Số nguyên dương bạn vừa nhập là : " + n1);
+        }else {
+            alert(n1 + " đây không phải là 1 số nguyên dương");
+        }
+    }
+    integer(n1);
+</script>
+</body>
+</html>

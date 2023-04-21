@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hàm2b7</title>
+</head>
+<body>
+<script>
+    let n = prompt("Nhập độ dài của mảng :");
+    let arr = [];
+    for (let i = 0; i < n; i++) {
+        arr[i]= prompt("Nhập số nguyên thứ :" + i);
+    }
+    alert("Các số nguyên vừa nhập là :" + arr);
+   function reverse () {
+          alert("các số nguyên sau đảo ngược là : " + arr.reverse());
+   }
+reverse(arr)
+</script>
+</body>
+</html>
